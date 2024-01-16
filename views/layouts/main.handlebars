@@ -9,52 +9,49 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- CSS Style Sheet Link -->
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Tech Blog</title>
+    <title>Beats Per Minute</title>
 </head>
 <body>
     <header>
         <!-- Add a logo image -->
-        <h1 class="h1"> Beats Per Minute</h1>
+        <h1 class="h1 display-3 text-center"> Beats Per Minute</h1>
+        <div class="container-fluid">
+            <h2 class = "h2 display-8 text-center">Elevate Your Fitness, Empower Your Life.</h2>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark" href="/">Beats Per Minute</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        {{#if logged_in}}
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="/">Home</a>
+                            <button type="button" class="btn btn-outline-dark">Login</button>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/dashboard">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-link nav-link text-dark" id="logout">Logout</button>
-                        </li>
-                        {{else}}
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/dashboard">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/login">Login</a>
-                        </li>
-                        {{/if}}
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container mt-4">
-        {{{body}}}
+    <main>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-6 col-sm-3">"The only bad workout is the one that didn't happen."</div>
+              <div class="w-100"></div>
+              <div class="col-6 col-sm-3">"Make your body the sexiest outfit you own."</div>
+          
+              <!-- Force next columns to break to new line -->
+              <div class="w-100"></div>
+          
+              <div class="col-6 col-sm-3">"Fitness is not about being better than someone else; it's about being better than you used to be."</div>
+              <div class="w-100"></div>
+              <div class="col-6 col-sm-3">"The pain you feel today will be the strength you feel tomorrow."</div>
+            </div>
+          </div>
+
+        </div>
     </main>
-    {{#if logged_in}}
     <script src="/js/logout.js"></script>
-    {{/if}}
 </body>
 </html>
