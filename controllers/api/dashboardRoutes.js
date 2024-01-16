@@ -9,7 +9,6 @@ router.get("/", withAuth, async (req, res) => {
       include: [
         { model: DietPlan },
         { model: WorkoutPlan },
-        // Add more models if needed
       ],
     });
     // Serialize the user's data to send to the handlebars template
