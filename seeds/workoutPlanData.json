@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Day 1",
+      "workout": [
+        {
+          "exercise": "Squats",
+          "duration": "4 sets x 10 reps"
+        },
+        {
+          "exercise": "Bench Press",
+          "duration": "4 sets x 8 reps"
+        },
+        {
+          "exercise": "Deadlifts",
+          "duration": "3 sets x 12 reps"
+        },
+        {
+          "exercise": "Plank",
+          "duration": "3 sets x 1 min"
+        }
+      ],
+      "description": "Full-body strength training"
+    },
+    {
+      "name": "Day 2",
+      "workout": [
+        {
+          "exercise": "Pull ups",
+          "duration": "3 sets x max reps"
+        },
+        {
+          "exercise": "Rows",
+          "duration": "4 sets x 12 reps"
+        },
+        {
+          "exercise": "Face pulls",
+          "duration": "3 sets x 15 reps"
+        },
+        {
+          "exercise": "Farmer carry",
+          "duration": "4 sets x 1 min"
+        }
+      ],
+      "description": "Upper body and grip strength"
+    },
+    {
+      "name": "Day 3",
+      "workout": [
+        {
+          "exercise": "Running",
+          "duration": "30 minutes"
+        },
+        {
+          "exercise": "Push-ups",
+          "duration": "3 sets x max reps"
+        },
+        {
+          "exercise": "Russian twists",
+          "duration": "3 sets x 20 reps"
+        },
+        {
+          "exercise": "Leg raises",
+          "duration": "3 sets x 15 reps"
+        }
+      ],
+      "description": "Cardio and core workout"
+    }
+  ]
+  
