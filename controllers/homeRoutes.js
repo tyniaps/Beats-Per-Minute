@@ -1,6 +1,6 @@
 // Imports
 const router = require("express").Router();
-const { DietPlan, WorkoutPlan, User } = require("../models");
+const { DietPlan, WorkoutgPlan, User } = require("../models");
 const withAuth = require("../utils/auth");
 
 // Route to get all DietPlans and WorkoutPlans
