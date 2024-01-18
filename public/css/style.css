@@ -1,32 +1,46 @@
-.pageHdr{
-    position:relative;
-   left: 600px;   
-   }
+
+.loginHdr {
+    position: relative;
+    left: 400px;
+    top: 40px;
+    padding-bottom: 30px;
+}
+
+
+.signUpHdr {
+    position: relative;
+    left: 1020px;
+    bottom: 30px;
    
+}
+
+
+#singUpBtn {
+    position: relative;
+    left: 175px;
+    bottom: 40px;
+
+}
+
+#loginButton {
+    position: relative;
+    left: 175px;
+    bottom: 40px;
    
-   
-   .loginHdr,
-   .signUpHdr {
-       position: relative;
-       left: 500px;
-       bottom: 10px;
-       top: 10px;
-   }
-   
-   
-   #singUpBtn,
-   #loginButton {
-       position: relative;
-       left: 500px;
-       bottom: 40px;
-      
-   }
-   
-   .mb-3 {
-       padding-left: 500px;
-       padding-top: 15px;
-   }
-   
-   .form-control {
+}
+
+.mb-3 {
+    padding-left: 175px;
+    padding-top: 10px;
+}
+
+#SignUpForm {
+   position: relative;
+   left: 650px;
+   bottom: 313px;
+    
+}
+
+.form-control {
    width: 500px;
-   }
+}
