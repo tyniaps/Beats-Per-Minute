@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS BeatsPerMinute_db;
+CREATE DATABASE BeatsPerMinute_db;
