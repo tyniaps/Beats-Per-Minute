@@ -1,10 +1,17 @@
-// controllers/index.js
-const dietPlanController = require('./dietPlanController');
-const workoutController = require('./workoutController');
+// Import controllers
+const dietPlanController = require('./dietplanroutes');
+const workoutController = require('./workoutplanroutes');
+const userController = require('./userroutes');
+const dashboardController = require('./dashboardroutes');
+const homeController = require('./homeroutes');
 
+// Exports controllers as an object
 module.exports = {
-  dietPlanController,
-  workoutController,
-  // Add other controllers here if needed
-};
+    dietPlanRoutes,
+    workoutPlanRoutes,
+    userRoutes,
+    dashboardRoutes,
+    homeRoutes,
+  };
+
 
