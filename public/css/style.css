@@ -1,3 +1,4 @@
+/* styling for login page */
 
 .loginHdr {
     position: relative;
@@ -43,4 +44,17 @@
 
 .form-control {
    width: 500px;
+}
+
+/* styling for dashboard page */
+
+#dashboardCrds{
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: center;
+}
+
+#dashboardHdr {
+    padding-bottom: 25px;
+    padding-top: 35px;
 }
