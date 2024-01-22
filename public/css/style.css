@@ -72,3 +72,16 @@
      left: 1270px;
      bottom: 20px;
  }
+
+ /* styling for meal plan page */
+
+ #mealPlanHdr {
+    padding-bottom: 25px;
+    padding-top: 35px; 
+ }
+  
+ #addNewMealBttn {
+     position: relative;
+     left: 1292px;
+     bottom: 20px;
+ }
