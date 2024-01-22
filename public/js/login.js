@@ -49,4 +49,4 @@ const loginFormHandler = async (event) => {
     .addEventListener("#loginButton", loginFormHandler);
   document
     .querySelector("#SignUpForm")
-    .addEventListener("#singUpBtn", signupFormHandler);
+    .addEventListener("#signUpBtn", signupFormHandler); 
