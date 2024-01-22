@@ -15,25 +15,42 @@
         </div>
     </header>
 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+    
+    </nav>    
+
     <h3 class="bodyHdr text-center" id="dashboardHdr">My Dashboard</h3>
 
-<div class="container" id="dashboardCrds">
-    <div class="card" id="wpCard">
-        <div class="card-body">
+    <div class="container" id="dashboardCrds">
+        <div class="row g-3">
+          <div class="card" id="wpCard">
+          <div class="card-body">
           <h5 class="card-title">My Workout Plan</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Open</a>
-          
-        </div>
-      </div>
+          <button type="button" class="btn btn-outline-success" id="wpOpenButton">Open</button>
+          </div>
+          </div>
+     
 
 
-      <div class="card" id="mpCard" >
-        <div class="card-body">
+          <div class="card" id="mpCard" >
+          <div class="card-body">
           <h5 class="card-title">My Meal Plan</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Open</a>
-         
+          <button type="button" class="btn btn-outline-success" id="mpOpenButton">Open</button>
+          </div>
+          </div>
         </div>
-      </div>
-</div>
+    </div>
