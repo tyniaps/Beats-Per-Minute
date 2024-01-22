@@ -13,7 +13,23 @@ DietPlan.init(
       type: DataTypes.TEXT,
       allowNull: true,
     },
-    // Add other attributes as needed as our project grows if necessary
+    calories: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    protein: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+    },
+    carbs: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+    },
+    fat: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+    },
+    // Add other attributes as needed
   },
   {
     sequelize,
@@ -22,3 +38,4 @@ DietPlan.init(
 );
 
 module.exports = DietPlan;
+
