@@ -41,4 +41,4 @@ const deleteMealPlan = (mealPlanName, mealName) => {
 // Specify the meal plan name and, if needed, the specific meal name to delete
 const mealPlanToDelete = 'Lunch';
 const specificMealToDelete = 'Quinoa and Vegetable Stir-Fry';
-deleteMealPlan(mealPlanToDelete, specificMealToDelete);
+deleteMealPlan(mealPlanToDelete, specificMealToDelete); 
