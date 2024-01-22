@@ -21,10 +21,6 @@ WorkoutPlan.belongsTo(User, {
   foreignKey: 'user_id',
 });
 
-DietPlan.hasMany(Comment, {
-  foreignKey: 'dietplan_id',
-});
-
 // We can add other associations as needed
 
 module.exports = {
