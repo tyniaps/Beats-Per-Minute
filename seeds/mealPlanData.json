@@ -1,0 +1,67 @@
+[
+    {
+      "name": "Breakfast",
+      "meals": [
+        {
+          "name": "Scrambled Eggs with Spinach",
+          "description": "Protein-rich eggs with a handful of fresh spinach",
+          "calories": 300,
+          "protein": 20,
+          "carbs": 10,
+          "fat": 15
+        },
+        {
+          "name": "Greek Yogurt with Berries",
+          "description": "Low-fat Greek yogurt with mixed berries",
+          "calories": 200,
+          "protein": 15,
+          "carbs": 25,
+          "fat": 5
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "meals": [
+        {
+          "name": "Grilled Chicken Salad",
+          "description": "Grilled chicken breast on a bed of mixed greens",
+          "calories": 400,
+          "protein": 30,
+          "carbs": 15,
+          "fat": 20
+        },
+        {
+          "name": "Quinoa and Vegetable Stir-Fry",
+          "description": "Stir-fried quinoa with assorted vegetables",
+          "calories": 350,
+          "protein": 12,
+          "carbs": 45,
+          "fat": 10
+        }
+      ]
+    },
+    {
+      "name": "Dinner",
+      "meals": [
+        {
+          "name": "Baked Salmon with Sweet Potato",
+          "description": "Oven-baked salmon served with roasted sweet potatoes",
+          "calories": 450,
+          "protein": 25,
+          "carbs": 30,
+          "fat": 20
+        },
+        {
+          "name": "Vegetable Quiche",
+          "description": "Homemade quiche with a variety of vegetables",
+          "calories": 300,
+          "protein": 15,
+          "carbs": 20,
+          "fat": 15
+        }
+      ]
+    }
+    
+  ]
+  

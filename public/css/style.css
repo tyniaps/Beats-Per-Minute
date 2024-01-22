@@ -11,7 +11,7 @@
 .signUpHdr {
     position: relative;
     left: 1020px;
-    bottom: 30px;
+    bottom: 300px;
    
 }
 
@@ -58,3 +58,30 @@
     padding-bottom: 25px;
     padding-top: 35px;
 }
+
+
+/* styling for workout plan page */
+
+#workoutPlanHdr {
+    padding-bottom: 25px;
+    padding-top: 35px; 
+ }
+  
+ #addNewWorkoutBttn {
+     position: relative;
+     left: 1270px;
+     bottom: 20px;
+ }
+
+ /* styling for meal plan page */
+
+ #mealPlanHdr {
+    padding-bottom: 25px;
+    padding-top: 35px; 
+ }
+  
+ #addNewMealBttn {
+     position: relative;
+     left: 1292px;
+     bottom: 20px;
+ }
