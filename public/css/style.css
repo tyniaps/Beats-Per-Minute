@@ -58,3 +58,17 @@
     padding-bottom: 25px;
     padding-top: 35px;
 }
+
+
+/* styling for workout plan page */
+
+#workoutPlanHdr {
+    padding-bottom: 25px;
+    padding-top: 35px; 
+ }
+  
+ #addNewWorkoutBttn {
+     position: relative;
+     left: 1270px;
+     bottom: 20px;
+ }
