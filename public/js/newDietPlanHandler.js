@@ -1,21 +1,21 @@
-// This section of my code is my function so users can create new meal plans (newMealPlanHandler.js)
-async function newMealPlanHandler(event) {
+// This section of my code is my function so users can create new diet plans (newDietPlanHandler.js)
+async function newDietPlanHandler(event) {
   try {
     // Prevent the default form submission
     event.preventDefault();
-    
+
     // Gather input values
     const title = document.querySelector("#titleInput").value.trim();
     const description = document.querySelector("#bodyInput").value.trim();
-    
+
     // Input validation
     if (!title || !description) {
       alert("Please provide both title and description.");
       return;
     }
-    
+
     // Make a fetch request to create a new meal plan
-    const response = await fetch(`/api/mealPlan`, {
+    const response = await fetch(`/api/dietPlan`, {
       method: "POST",
       body: JSON.stringify({
         title,
@@ -33,7 +33,7 @@ async function newMealPlanHandler(event) {
     } else {
       // Handle failed response
       const errorMessage = await response.text();
-      alert(`Failed to create a new meal plan: ${errorMessage}`);
+      alert(`Failed to create a new diet plan: ${errorMessage}`);
     }
   } catch (error) {
     // Handle unexpected errors
@@ -44,5 +44,6 @@ async function newMealPlanHandler(event) {
 
 // Event Listener
 document
-  .querySelector(".createMealPlan")
-  .addEventListener("submit", newMealPlanHandler);
+  .querySelector(".createDietPlan")
+  .addEventListener("submit", newDietPlanHandler);
+
