@@ -15,7 +15,7 @@ DietPlan.init(
     },
     calories: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     protein: {
       type: DataTypes.FLOAT,
