@@ -1,6 +1,6 @@
 // Imports
 const router = require("express").Router();
-const { DietPlan, WorkoutgPlan, User } = require("../models");
+const { DietPlan, WorkoutPlan, User } = require("../models");
 const withAuth = require("../utils/auth");
 
 // Route to get all DietPlans and WorkoutPlans
@@ -9,11 +9,7 @@ router.get("/", async (req, res) => {
     const planData = await DietPlan.findAll({
       include: [
         {
-          model: WorkoutPlan,
-          attributes: ["comment_body"],
-        },
-        {
-          model: Comment, 
+          model: User,
           attributes: ["comment_body"],
         },
       ],
