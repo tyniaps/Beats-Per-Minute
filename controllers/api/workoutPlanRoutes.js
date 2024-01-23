@@ -1,6 +1,6 @@
 const express = require('express');
-const db = require('../models');
-const withAuth = require('../utils/auth'); // Make sure to adjust the path as needed
+const db = require('../../models/workoutPlan');
+const withAuth = require('../../utils/auth'); // Make sure to adjust the path as needed
 
 const router = express.Router();
 
