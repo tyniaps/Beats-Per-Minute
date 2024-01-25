@@ -1,6 +1,7 @@
 // Imports
 const router = require("express").Router();
 const { DietPlan, WorkoutPlan, User, Comment } = require("../models");
+const { DietPlan, WorkoutPlan, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 // Route to get all DietPlans and WorkoutPlans
 router.get("/", async (req, res) => {
@@ -84,6 +85,7 @@ router.get("/dashboard", withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+// Other routes...
 // Other routes...
 // Export
 module.exports = router;
