@@ -1,22 +1,21 @@
-# Beats-Per-Minute
+# Interactive Full Stack Project - "Beats per Minute"
 
 ## Table of Contents
 
 * [Description](#description)
-* [Visuals](#visuals)
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
+* [Screenshots of Application](#visuals)
+* [Link to Deployed Application](#link-to-deployed-application)
+* [Credits](#credits)
 
 ## Description
 
- 
+"Beats per Minute" is an interactive full stack web-application concept which has been designed to help users keep track of and achieve their health and fitness goals. The web application allows the user to create a personal account and keep a record of workout and diet plans that suit their needs. 
 
-## Visuals
+This group project was completed in order to demonstrate the ability to utilise front-end and back-end technologies to build a full-stack web-application. Some of the technologies include CSS, JavaScript, Bootstrap, Handlebars, NodeJS, mySQL and Sequelize (a full list of technologies used can be found below),
 
+Completing the project also allowed for first-hand experience of collaboration in the development of full-stack applications. While there were many successes, the group discovered that there can be many challenges when collaborating with other developers. The process followed whilst completing the project highlighted the various approaches that can be taken to ensure that any problems or challenges that arise can be resolved effectively.
 
 ## Technologies Used
 
@@ -38,29 +37,34 @@
 ![Nodemon Badge](https://img.shields.io/badge/Nodemon-76D04B?logo=nodemon&logoColor=fff&style=for-the-badge)
 ![Handlebars.js Badge](https://img.shields.io/badge/Handlebars.js-000?logo=handlebarsdotjs&logoColor=fff&style=for-the-badge)
 
+
+
 ## Installation
 
- 
-
-## Usage
-
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+1. To use the application clone the repository.
+2. Once you have downloaded it to your local device run the command npm install in your terminal on VS code and this will download the necessary packages.
+3. To start the app, use the command npm start.
 
 
-## License
+# Screenshots of Application
 
-![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
-[License Link](https://opensource.org/licenses/MIT)
+![Screenshot of main homepage](<Screenshot 2024-01-25 172312.png>)
+![Screenshot of login and sign up page](<Screenshot 2024-01-25 004638.png>)
+![Screenshot of dashboard](<Screenshot 2024-01-25 004702.png>)
+![Screenshot of workout plan dashboard](<Screenshot 2024-01-25 004853.png>)
+![Screenshot of diet plan dashboard](<Screenshot 2024-01-25 173259.png>)
+![Screenshot of new diet plan entry form](<Screenshot 2024-01-25 174251.png>)
 
-This project is licensed under the MIT License - see the [MIT License](https://opensource.org/licenses/MIT) for details.
 
-## Contact
+## Link to Deployed Application
 
 
-  For questions, please contact me via:
-  - Github: [viren15152](https://github.com/viren15152)
- 
+
+## Credits
+
+  - GitHub Users:<br />
+   [viren15152](https://github.com/viren15152)<br />
+   [Hwarsame7](https://github.com/Hwarsame7)<br />
+   [tyniaps](https://github.com/tyniaps)<br />
+   [duweri](https://github.com/duweri)<br />
+   [BeegBoiWebDev](https://github.com/BeegBoiWebDev)
