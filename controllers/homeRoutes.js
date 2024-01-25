@@ -1,6 +1,7 @@
 // Imports
 const router = require("express").Router();
 const { DietPlan, WorkoutPlan, User, Comment } = require("../models");
+const { DietPlan, WorkoutPlan, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 // Route to get all DietPlans and WorkoutPlans
 router.get("/", async (req, res) => {
@@ -11,10 +12,18 @@ router.get("/", async (req, res) => {
           model: User,
           attributes: ["name"],
         },
+        {
+          model: Comment,
+          attributes: ["comment_body"],
+        }
+        
       ],
+      
+       
+          
     });
     const plans = planData.map((plan) => plan.get({ plain: true }));
-    res.render("homepage", {
+    res.send({
       plans,
       logged_in: req.session.logged_in,
     });
@@ -24,7 +33,7 @@ router.get("/", async (req, res) => {
   }
 });
 // Route to get details of a specific DietPlan
-router.get("/dietPlan/:id", withAuth, async (req, res) => {
+router.get("/dietPlan/:id", withAuth,async (req, res) => {
   try {
     const dietPlanData = await DietPlan.findByPk(req.params.id, {
       include: [
@@ -32,10 +41,10 @@ router.get("/dietPlan/:id", withAuth, async (req, res) => {
           model: User,
           attributes: ["name"],
         },
-        {
-          model: Comment,
-          include: [User],
-        },
+        // {
+        //   model: Comment,
+        //   include: [User],
+        // },
       ],
     });
     const dietPlan = dietPlanData.get({ plain: true });
@@ -45,8 +54,8 @@ router.get("/dietPlan/:id", withAuth, async (req, res) => {
     });
   } catch (err) {
     console.log(err);
-    res.status(500).json(err);
-    res.redirect("/login");
+    return res.status(500).json(err);
+    // res.redirect("/login");
   }
 });
 // Route to allow logged-in user access to the dashboard page
@@ -76,6 +85,7 @@ router.get("/dashboard", withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+// Other routes...
 // Other routes...
 // Export
 module.exports = router;
